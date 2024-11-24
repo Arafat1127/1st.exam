@@ -1,0 +1,550 @@
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header {
+        background-image: url(../images/S.E.M\ invest\ fund\ backgrud.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 95vh;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.822);
+        background-blend-mode: multiply;
+        padding-bottom: 70px;
+        mask: radial-gradient(60% 150px at bottom, #0000 100%, #000);
+    }
+
+    .nav-main {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3% 0 3%;
+        align-items: center;
+
+    }
+
+    .nav-main nav a {
+        text-decoration: none;
+        list-style: none;
+        display: inline-block;
+        padding: 30px 20px 0 0;
+        color: white;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .nav-main button {
+        border: none;
+        color: white;
+        background-color: rgb(236, 169, 80);
+        font-family: Roboto;
+        padding: 10px 15px;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+
+    .nav-main button:hover {
+        border: 1px solid #fff;
+        background: none;
+        transition: all 0.6s;
+    }
+
+
+    /* =========banner section======== */
+
+    .banner {
+        text-align: center;
+        align-items: center;
+        padding: 180px 0 0 0;
+    }
+
+    .banner h5 {
+        color: rgb(221 219 220);
+        font-weight: 0px;
+        font-size: 20px;
+        letter-spacing: 6px;
+        font-family: Roboto;
+    }
+
+    .banner h1 {
+        color: white;
+        padding: 30px 0 0 0;
+        font-size: 90px;
+        font-family: Roboto;
+    }
+
+
+
+    /* ==========future growth=========== */
+
+    .future-heading {
+        text-align: center;
+    }
+
+    .future-heading h1 {
+        color: #3d3f41;
+        padding: 20px;
+        font-family: Roboto;
+    }
+
+    .future-heading p {
+        color: rgb(99 99 99);
+        margin: 0 0 10px 0;
+        font-family: Roboto;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 32px;
+        margin: 50px 100px 50px 100px;
+
+    }
+
+    .grid-item {
+        border: 1px solid #ddd;
+        padding: 28px;
+        border-radius: 8px;
+        background-color: rgb(255 255 255);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .grid-item:hover {
+        transition: all 0.3s;
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.233);
+    }
+
+    .grid-item span {
+        color: rgb(209 145 74);
+        font-weight: bolder;
+        font-size: 18px;
+        padding: 0px 0px 0px 8px;
+        margin: 0 0 15px 0;
+        font-family: Roboto;
+    }
+
+    .grid-item p {
+        padding: 15px 8px 10px 8px;
+        color: rgba(131, 131, 131, 1);
+        font-family: Roboto;
+    }
+
+    .grid-item h3 {
+        margin: 20px 0 0 8px;
+        color: #424346ce;
+        font-family: Roboto;
+    }
+
+
+
+    /* ========About Section======== */
+
+    .about-main {
+        background-color: rgba(245, 248, 252, 1);
+        margin: 90px 0 0 0;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding-bottom: 100px;
+    }
+
+    .about-first h2 {
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 35px;
+        padding: 100px 0 30px 0;
+        color: #3d3f41;
+    }
+
+    .about-first p {
+        color: rgba(131, 131, 131, 1);
+        font-family: Roboto;
+        padding: 0 0 30px 0;
+    }
+
+    .about-first img {
+        height: 450px;
+        width: 600px;
+
+
+    }
+
+    .about-img {
+        display: flex;
+        gap: 20px;
+        padding: 90px 10px 0 0;
+        height: 250px;
+        width: 250px;
+
+
+    }
+
+    .about-second p {
+        color: rgba(131, 131, 131, 1);
+        font-family: Roboto;
+        padding: 30px 0 0 0;
+    }
+
+    .about-second h3 {
+        color: rgb(94, 96, 99);
+        padding: 30px 0 0 0;
+        font-family: Roboto;
+    }
+
+    /* ========Our History======== */
+    .history-section {
+        padding: 40px;
+    }
+
+    .history-heading {
+        text-align: center;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 35px;
+        color: #3d3f41;
+        margin: 60px 0 30px 0;
+
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin: 50px 180px 50px 180px;
+        transition: transform 0.3s;
+    }
+
+    .card-item h3 {
+        font-weight: bold;
+        font-family: Roboto;
+        color: #f6fdfff1;
+        margin: 25px 0 15px 0;
+    }
+
+    .card-item p {
+        font-family: Roboto;
+        color: #f6fdffd8;
+        letter-spacing: 1px;
+
+    }
+
+    .card-item {
+        background-color: rgb(193, 140, 61);
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.507);
+    }
+
+    .card-item:hover {
+        transition: all 0.3s;
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.233);
+    }
+
+    /* =============Our Team=========== */
+    .team {
+        background-color: #f5f8fc;
+        margin: 120px 0 0 0;
+        padding: 20px 0 100px 0;
+    }
+
+    .team h2 {
+        /* margin: 90px 0 0 90px; */
+        padding: 140px 0 26px 180px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 35px;
+        color: #3d3f41;
+    }
+
+    .team-main {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+
+    .team-item h3 {
+        font-weight: bold;
+        font-family: Roboto;
+        color: #424346ce;
+        margin: 35px 0 20px 0;
+    }
+
+    .team-item h4 {
+        font-weight: bold;
+        font-family: Roboto;
+        color: #424346ce;
+        margin: 15px 0 15px 0;
+    }
+
+    .team-item span {
+        font-weight: bold;
+        font-family: Roboto;
+        color: #d9a864;
+        padding: 0 0 20px 0;
+    }
+
+    .team-item p {
+        font-family: Roboto;
+        color: #424346ce;
+        /* padding: 20px 0 15px 0; */
+        margin: 20px 0 20px 0;
+        letter-spacing: 1px;
+    }
+
+    /* ===========Message Section=========== */
+    .message-section {
+        background-image: url(../images/S.E.M\ invest\ fund\ backgrud.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.822);
+        background-blend-mode: multiply;
+        font-family: Arial, sans-serif;
+    }
+
+
+    .message {
+
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .message-container {
+        margin: 100px 0 0 0;
+        padding: 20px 20px 20px 20px;
+        border-radius: 8px;
+        max-width: 500px;
+        width: 90%;
+        border-radius: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+
+    .message-section h2 {
+        /* margin: 0 0 30px 0; */
+        padding: 0 0 15px 0;
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .message-group {
+        width: 100%;
+        margin-bottom: 15px;
+        background: transparent;
+        border: none;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 15px;
+        border-bottom: 2px solid #fff;
+        color: white;
+        padding: 13px 6px;
+        outline: none;
+    }
+
+
+    .send-button {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        height: 40px;
+        width: 110px;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        background-color: #dfb272;
+    }
+
+    .send-button:hover {
+        border: 2px solid #fff;
+        background: none;
+        transition: all 0.6s;
+    }
+
+    /* ==========Map Section============ */
+
+    .map-section {
+        display: flex;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .map-left {
+        width: 800px;
+        height: 600px;
+        padding: 0 0 0 0;
+        margin: -200px 80px 0px 100px;
+        position: relative;
+    }
+
+    .map-img {
+        height: 145px;
+        width: 238px;
+        position: absolute;
+        margin: -200px 0 0 -318px;
+    }
+
+    .office {
+        background-color: white;
+        padding: 80px;
+        /* border: 2px solid black; */
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.075);
+        position: absolute;
+        margin: -100px 0 0 0;
+    }
+
+    .office h2 {
+        padding: 10px 0 10px 0;
+        font-family: Roboto;
+        font-size: 35px;
+        color: #3d3f41;
+    }
+
+    .office h3 {
+        padding: 10px 0 10px 0;
+        font-family: Roboto;
+        color: #3d3f41;
+    }
+
+    .office p {
+        padding: 10px 0 10px 0;
+        font-family: Roboto;
+    }
+
+
+    /* ==========More About=======*/
+    .more-section {
+        padding-bottom: 300px;
+        background-color: #f5f8fc;
+        mask: radial-gradient(60% 110px at bottom, #0000 100%, #000);
+    }
+
+    .more-heading {
+        text-align: center;
+        margin: 100px;
+    }
+
+    .more-heading h2 {
+        padding-top: 70px;
+        font-family: Roboto;
+        font-weight: bold;
+        color: #3d3f41;
+    }
+
+    .more-heading p {
+        margin: 10px 0 0 0;
+        font-family: Roboto;
+        color: #666768;
+    }
+
+    .more-main img {
+        height: 450px;
+        width: 720px;
+    }
+
+    .second {
+        margin-top: 40px;
+    }
+
+    .more-main {
+        display: flex;
+        justify-content: center;
+        /* gap: 20px; */
+    }
+
+    .more-about-one h4 {
+        font-family: Roboto;
+        font-weight: bold;
+        color: #3d4247;
+        margin-top: 15px;
+    }
+
+    .more-about-one p {
+        font-family: Roboto;
+        margin: 30px 0 0 0;
+        color: #666768;
+
+    }
+
+    .more-about h4 {
+        font-family: Roboto;
+        font-weight: bold;
+        padding: 0px 0 0px 30px;
+        color: #3d4247;
+    }
+
+    .more-about p {
+        color: #666768;
+        font-family: Roboto;
+        padding: 0px 0 10px 30px;
+    }
+
+    /* =====footer section======== */
+    .footer-main {
+        padding: 50px;
+        /* background-color: #deb070; */
+        background-color: #ffffff;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer span {
+        color: #deb070;
+    }
+
+    .footer p {
+        font-family: Roboto;
+        font-weight: bold;
+        color: #777777;
+    }
+
+    /* ========bottom to top button========= */
+
+    .top-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        background-color: rgb(236, 169, 80);
+        /* Blue button */
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    /* Hover Effect */
+    .top-button:hover {
+        background-color: rgb(236, 169, 80);
+        /* Darker blue */
+        transform: scale(1.1);
+    }
+
+    /* Button Hidden initially */
+    .top-button.hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /* Show button when scrolled down */
+    .top-button.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* ========= */

@@ -1,0 +1,761 @@
+    /* ===================Media Queries================ */
+
+    /* ====================Mobile Device================ */
+
+    @media only screen and (max-width:668px) {
+
+
+        header {
+            height: 70vh;
+            padding-bottom: 20px;
+            mask: radial-gradient(65% 80px at bottom, #0000 100%, #000);
+        }
+
+        .logo img {
+            margin: 0 0 0 15px;
+            height: 130px;
+
+        }
+
+        .nav-main {
+            display: inline-block;
+            padding: 10px 0 0 0;
+        }
+
+        .nav-main nav a {
+            display: inline-block;
+            padding: 0px 10px 0 15px;
+            font-weight: 0;
+            font-size: 12px;
+        }
+
+        .nav-main button {
+            margin: 10px 0 0 110px;
+            display: flex;
+
+            padding: 6px 8px;
+            font-size: 10px;
+        }
+
+        /* =========banner section======== */
+
+        .banner {
+            padding: 30px 0 0 0;
+        }
+
+
+        .banner h5 {
+            font-size: 15px;
+            letter-spacing: 2px;
+
+        }
+
+        .banner h1 {
+            padding: 15px 0 0 0;
+            font-size: 25px;
+
+        }
+
+
+        /* ==========future growth=========== */
+
+        .future-heading h1 {
+            font-size: 17px;
+            padding: 0px 4px 0 4px;
+
+        }
+
+        .future-heading p {
+            margin: 10px 0 0px 0;
+        }
+
+        .grid-container {
+            display: block;
+            margin: 0px 13px 0px 13px;
+
+        }
+
+        .grid-item {
+            margin: 10px 0 0 0;
+            padding: 8px;
+        }
+
+        .grid-item:hover {
+            transition: all 0.5s;
+            transform: translateY(-0px);
+
+        }
+
+        .grid-item span {
+            font-size: 15px;
+            padding: 0px 0px 0px 8px;
+            margin: 0 0 15px 0;
+        }
+
+        .grid-item p {
+            font-size: 12px;
+            padding: 15px 8px 10px 8px;
+
+
+        }
+
+        .grid-item h3 {
+            font-size: 15px;
+            margin: 10px 0 0 8px;
+        }
+
+
+        /* ========About Section======== */
+
+        .about-main {
+            margin: 90px 0 0 0;
+            display: block;
+            gap: 10px;
+            padding-bottom: 50px;
+        }
+
+        .about-first h2 {
+
+            font-size: 25px;
+            padding: 50px 13px 30px 13px;
+
+        }
+
+        .about-first p {
+            padding: 0 13px 10px 13px;
+        }
+
+        .about-first img {
+            height: 170px;
+            width: 93%;
+            padding: 0 10px 0 10px;
+
+        }
+
+        .about-img {
+            display: flex;
+            gap: 10px;
+            padding: 90px 13px 0 13px;
+            height: 145px;
+            width: 145px;
+
+
+        }
+
+        .about-second p {
+            padding: 18px 13px 0 13px;
+        }
+
+        .about-second h3 {
+            padding: 18px 13px 0 13px;
+        }
+
+        /* ========Our History======== */
+        .history-section {
+            padding: 20px;
+        }
+
+        .history-heading {
+            font-size: 25px;
+            margin: 30px 0 30px 0;
+
+        }
+
+        .card {
+            display: block;
+            /* grid-template-columns: repeat(1, 1fr); */
+            gap: 30px;
+            margin: 0px 0px 0px 0px;
+            transition: transform 0.3s;
+        }
+
+        .card-item h3 {
+            color: #f6fdfff1;
+            margin: 25px 0 15px 0;
+        }
+
+        .card-item p {
+            color: #f6fdffef;
+            letter-spacing: 1px;
+        }
+
+        .card-item {
+            margin: 10px 0 0 0;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.137);
+        }
+
+        /* =============Our Team=========== */
+        .team {
+
+            margin: 60px 0 0 0;
+            padding: 20px 0 0px 0;
+        }
+
+        .team h2 {
+            /* margin: 90px 0 0 90px; */
+            padding: 10px 0 15px 10px;
+            font-size: 25px;
+
+        }
+
+        .team-main {
+            display: block;
+
+        }
+
+
+        .team-item h3 {
+            margin: 25px 0 15px 13px;
+        }
+
+        .team-item h4 {
+            margin: 10px 0px 10px 13px;
+        }
+
+        .team-item span {
+            font-size: 14px;
+            padding: 0 13px 10px 13px;
+        }
+
+        .team-item p {
+            margin: 10px 13px 20px 13px;
+            letter-spacing: 1px;
+        }
+
+        /* ===========Message Section=========== */
+        .message-section {
+            margin: 30px 0 0 0;
+            height: 80vh;
+        }
+
+        .message-container {
+            margin: 30px 0 0 0;
+            padding: 10px 13px 20px 13px;
+            border-radius: 8px;
+            max-width: 300px;
+            width: 90%;
+
+        }
+
+
+        .message-section h2 {
+            padding: 0 0 15px 0;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .message-group {
+            margin-bottom: 15px;
+            font-size: 13px;
+            padding: 10px 6px;
+        }
+
+
+        .send-button {
+            font-size: 13px;
+            height: 30px;
+            width: 90px;
+            border-radius: 20px;
+        }
+
+        /* ==========Map Section============ */
+
+        .map-section {
+            display: flex;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+
+        .map-left {
+            width: 170px;
+            height: 170px;
+            padding: 0 0 0 0;
+            margin: -80px 80px 0px 10px;
+            position: relative;
+        }
+
+        .map-img {
+            height: 45px;
+            width: 65px;
+            position: absolute;
+            margin: -80px 0 0 -145px;
+        }
+
+        .office {
+            padding: 1px 0 0 9px;
+            box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.075);
+            position: absolute;
+            margin: -65px 5px 0 -75px;
+        }
+
+        .office h2 {
+            padding: 5px 0 5px 0;
+            font-size: 15px;
+
+        }
+
+        .office h3 {
+            font-size: 10px;
+            padding: 5px 0 5px 0;
+
+        }
+
+        .office p {
+            padding: 5px 0 5px 0;
+            font-size: 8px;
+        }
+
+
+
+        /* ==========More About=======*/
+        .more-section {
+            padding-bottom: 80px;
+
+            mask: radial-gradient(70% 70px at bottom, #0000 100%, #000);
+        }
+
+        .more-heading {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .more-heading h2 {
+            padding-top: 30px;
+            font-size: 20px;
+
+        }
+
+        .more-heading p {
+            margin: 10px 0 0 0;
+            font-size: 13px;
+        }
+
+        .more-main img {
+            margin: 5px 10px 0 10px;
+            height: 225px;
+            width: 93%;
+        }
+
+        .more-main {
+            display: block;
+        }
+
+        .more-about-one h4 {
+            margin: 15px 0px 0 12px;
+
+        }
+
+        .more-about-one p {
+
+            margin: 15px 12px 0 12px;
+
+
+        }
+
+        .more-about h4 {
+            padding: 15px 0 12px 12px;
+        }
+
+        .more-about p {
+            padding: 0px 0 10px 12px;
+
+        }
+
+        /* =====footer section======== */
+        .footer-main {
+            padding: 0 0 0 0;
+
+        }
+
+
+        .footer p {
+            font-size: 8px;
+            margin: 0 3px 25px 3px;
+        }
+
+        /* Hover Effect */
+
+        #scrollToTopBtn {
+            height: 35px;
+            width: 70px;
+            font-size: 9px;
+        }
+
+
+
+    }
+
+
+    /* ====================Landescape mobile, Tab Device=========== */
+    @media only screen and (min-width:669px) and (max-width:768px) {
+
+        header {
+            height: 80vh;
+            padding-bottom: 30px;
+            mask: radial-gradient(70% 150px at bottom, #0000 100%, #000);
+        }
+
+        .nav-main {
+            padding: 0 3px 0 3px;
+
+        }
+
+        .logo img {
+            padding: 10px 0 0 0;
+            height: 130px;
+        }
+
+        .nav-main nav a {
+            padding: 10px 10px 0 0;
+            font-size: 15px;
+        }
+
+        .nav-main button {
+            padding: 8px 12px;
+            font-size: 13px;
+        }
+
+        /* =========banner section======== */
+
+        .banner {
+            padding: 90px 0 0 0;
+        }
+
+        .banner h5 {
+            font-size: 18px;
+        }
+
+        .banner h1 {
+            padding: 20px 0 0 0;
+            font-size: 50px;
+        }
+
+        /* ==========future growth=========== */
+
+
+        .future-heading h1 {
+            padding: 10px;
+        }
+
+        .future-heading p {
+            margin: 0 0 10px 0;
+        }
+
+        .grid-container {
+            gap: 25px 25px;
+            margin: 50px 50px 50px 50px;
+
+        }
+
+        .grid-item {
+            padding: 20px;
+        }
+
+        .grid-item p {
+            padding: 15px 0 10px 8px;
+        }
+
+        .grid-item h3 {
+            margin: 15px 0 0 8px;
+        }
+
+
+        /* ========About Section======== */
+
+        .about-main {
+
+            margin: 50px 0 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            padding-bottom: 100px;
+        }
+
+        .about-first h2 {
+            font-size: 30px;
+            padding: 60px 0 30px 13px;
+
+        }
+
+        .about-first p {
+            padding: 0 0 20px 13px;
+        }
+
+        .about-first img {
+            height: 240px;
+            width: 350px;
+            padding: 0 0 0 13px;
+
+        }
+
+        .about-img {
+            display: flex;
+            gap: 15px;
+            padding: 100px 10px 0 0;
+            height: 160px;
+            width: 170px;
+        }
+
+        .about-second p {
+            padding: 20px 0 0 0;
+        }
+
+        .about-second h3 {
+            padding: 13px 0 0 0;
+        }
+
+        /* ========Our History======== */
+        .history-section {
+            padding: 20px;
+        }
+
+        .history-heading {
+            font-size: 30px;
+
+            margin: 50px 0 30px 0;
+
+        }
+
+        .card {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 50px 20px 50px 20px;
+
+        }
+
+        .card-item h3 {
+            font-weight: bold;
+            font-family: Roboto;
+            color: #f6fdfff1;
+            margin: 25px 0 15px 0;
+        }
+
+        .card-item p {
+            font-family: Roboto;
+            color: #f6fdffd8;
+            letter-spacing: 1px;
+
+        }
+
+        .card-item {
+            background-color: rgb(193, 140, 61);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.507);
+        }
+
+        .card-item:hover {
+            transition: all 0.3s;
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.233);
+        }
+
+
+        /* =============Our Team=========== */
+        .team {
+
+            margin: 60px 0 0 0;
+            padding: 0px 0 80px 0;
+        }
+
+        .team h2 {
+            padding: 70px 0 26px 200px;
+            font-size: 35px;
+        }
+
+        .team-main {
+            gap: 50px;
+        }
+
+
+        .team-item h3 {
+            margin: 30px 0 20px 13px;
+        }
+
+        .team-item h4 {
+            font-weight: bold;
+            font-family: Roboto;
+            color: #424346ce;
+            margin: 0px 0 10px 13px;
+        }
+
+        .team-item span {
+
+            padding: 0 0 20px 13px;
+        }
+
+        .team-item p {
+
+            margin: 20px 0 20px 13px;
+
+        }
+
+
+        /* ===========Message Section=========== */
+        .message-section {
+
+            height: 95vh;
+        }
+
+
+        .message-container {
+            margin: 50px 0 0 0;
+            padding: 20px 20px 20px 20px;
+
+        }
+
+
+        .message-section h2 {
+            padding: 0 0 15px 0;
+        }
+
+        .send-button {
+            font-size: 15px;
+            color: white;
+            height: 37px;
+            width: 100px;
+        }
+
+
+        /* ==========Map Section============ */
+
+        .map-section {
+            display: flex;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+
+        .map-left {
+            width: 340px;
+            height: 300px;
+            padding: 0 0 0 0;
+            margin: -90px 80px 0px 20px;
+            position: relative;
+        }
+
+        .map-img {
+            height: 77px;
+            width: 126px;
+            position: absolute;
+            margin: -90px 0 0 -206px;
+        }
+
+        .office {
+            padding: 30px 0 20px 25px;
+            box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.075);
+            position: absolute;
+            margin: -65px 5px 0 -60px;
+        }
+
+        .office h2 {
+            padding: 10px 0 10px 0;
+            font-size: 30px;
+
+        }
+
+        .office h3 {
+            font-size: 20px;
+            padding: 5px 0 5px 0;
+
+        }
+
+        .office p {
+            padding: 5px 20px 5px 0;
+            font-size: 13px;
+        }
+
+
+
+
+        /* ==========More About=======*/
+        .more-section {
+            padding-bottom: 100px;
+            mask: radial-gradient(60% 80px at bottom, #0000 100%, #000);
+        }
+
+        .more-heading {
+            text-align: center;
+            margin: 50px 0 40px 0;
+        }
+
+        .more-heading h2 {
+            padding-top: 50px;
+            font-size: 20px;
+
+        }
+
+        .more-heading p {
+            margin: 10px 0 0 0;
+            font-size: 13px;
+        }
+
+        .more-main img {
+            margin: 5px 10px 0 10px;
+            height: 225px;
+            width: 93%;
+        }
+
+        .more-main {
+            display: flex;
+        }
+
+        .more-about-one h4 {
+            margin: 15px 0px 0 12px;
+
+        }
+
+        .more-about-one p {
+
+            margin: 15px 12px 0 12px;
+
+
+        }
+
+        .more-about h4 {
+            padding: 15px 0 12px 12px;
+        }
+
+        .more-about p {
+            padding: 0px 0 10px 12px;
+
+        }
+
+        /* =====footer section======== */
+        .footer-main {
+            padding: 40px 0 0 0;
+
+        }
+
+
+        .footer p {
+            font-size: 15px;
+            margin: 0 3px 25px 3px;
+        }
+
+        /* Hover Effect */
+
+        #scrollToTopBtn {
+            height: 40px;
+            width: 75px;
+            font-size: 12px;
+        }
+
+
+
+    }
+
+
+    /* =============Tab landescape,Large Tab , Small Monitor ,=============*/
+
+    @media only screen and(min-width:769px)and (max-width:992px) {}
+
+    /* ===========Small monitor and Small laptop=========== */
+
+    @media only screen and(min-width:993px)and(max-width:1024px) {}
+
+
+    /* ==============large laptop and small monitor========== */
+    @media only screen and (min-width:1025px) and (max-width:1440px) {}
