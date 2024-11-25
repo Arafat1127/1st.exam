@@ -6,7 +6,7 @@
 
 
         header {
-            height: 70vh;
+            height: 450px;
             padding-bottom: 20px;
             mask: radial-gradient(65% 80px at bottom, #0000 100%, #000);
         }
@@ -18,22 +18,24 @@
         }
 
         .nav-main {
-            display: inline-block;
+            display: block;
+
             padding: 10px 0 0 0;
         }
 
         .nav-main nav a {
+            /* margin: 0 1% 0 1%; */
             display: inline-block;
-            padding: 0px 10px 0 15px;
-            font-weight: 0;
-            font-size: 12px;
+            padding: 0px 5px 0 5px;
+
+            font-size: 11px;
         }
 
         .nav-main button {
-            margin: 10px 0 0 110px;
-            display: flex;
+            margin: 0px 0 0 0px;
+            display: block;
 
-            padding: 6px 8px;
+            padding: 5px 6px;
             font-size: 10px;
         }
 
@@ -750,7 +752,68 @@
 
     /* =============Tab landescape,Large Tab , Small Monitor ,=============*/
 
-    @media only screen and(min-width:769px)and (max-width:992px) {}
+    @media only screen and (min-width:769px) and (max-width:992px) {
+
+        header {
+            height: 95vh;
+            padding-bottom: 70px;
+            mask: radial-gradient(60% 150px at bottom, #0000 100%, #000);
+        }
+
+        .nav-main {
+            padding: 0 0 0 0;
+
+        }
+
+        .nav-main nav a {
+            padding: 30px 20px 0 0;
+            font-size: 15px;
+        }
+
+        .nav-main button {
+            border: none;
+            color: white;
+            background-color: rgb(236, 169, 80);
+            font-family: Roboto;
+            padding: 10px 15px;
+            font-size: 15px;
+            border-radius: 15px;
+        }
+
+        .nav-main button:hover {
+            border: 1px solid #fff;
+            background: none;
+            /* transform: translateY(-5px); */
+
+            transition: all 0.6s;
+        }
+
+
+        /* =========banner section======== */
+
+        .banner {
+            text-align: center;
+            align-items: center;
+            padding: 180px 0 0 0;
+        }
+
+        .banner h5 {
+            color: rgb(221 219 220);
+            font-weight: 0px;
+            font-size: 20px;
+            letter-spacing: 6px;
+            font-family: Roboto;
+        }
+
+        .banner h1 {
+            color: white;
+            padding: 30px 0 0 0;
+            font-size: 90px;
+            font-family: Roboto;
+        }
+
+
+    }
 
     /* ===========Small monitor and Small laptop=========== */
 
