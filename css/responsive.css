@@ -6,7 +6,7 @@
 
 
         header {
-            height: 450px;
+            height: 430px;
             padding-bottom: 20px;
             mask: radial-gradient(65% 80px at bottom, #0000 100%, #000);
         }
@@ -15,6 +15,10 @@
             margin: 0 0 0 15px;
             height: 130px;
 
+        }
+
+        .logo {
+            margin-top: 5px;
         }
 
         .nav-main {
@@ -42,7 +46,7 @@
         /* =========banner section======== */
 
         .banner {
-            padding: 30px 0 0 0;
+            padding: 50px 0 0 0;
         }
 
 
@@ -229,7 +233,7 @@
         /* ===========Message Section=========== */
         .message-section {
             margin: 30px 0 0 0;
-            height: 80vh;
+            height: 530px;
         }
 
         .message-container {
@@ -394,7 +398,7 @@
     @media only screen and (min-width:669px) and (max-width:768px) {
 
         header {
-            height: 80vh;
+            height: 620px;
             padding-bottom: 30px;
             mask: radial-gradient(70% 150px at bottom, #0000 100%, #000);
         }
@@ -599,7 +603,7 @@
         /* ===========Message Section=========== */
         .message-section {
 
-            height: 95vh;
+            height: 700px;
         }
 
 
@@ -1209,7 +1213,7 @@
 
         /* ===========Message Section=========== */
         .message-section {
-            height: 95vh;
+            height: 730px;
 
         }
 
@@ -1359,7 +1363,7 @@
     /* ==============large laptop and small monitor========== */
     @media only screen and (min-width:1025px) and (max-width:1440px) {
         header {
-            height: 650px;
+            height: 700px;
             padding-bottom: 70px;
             mask: radial-gradient(60% 140px at bottom, #0000 100%, #000);
         }
@@ -1515,7 +1519,7 @@
 
         /* ===========Message Section=========== */
         .message-section {
-            height: 95vh;
+            height: 800px;
 
         }
 
