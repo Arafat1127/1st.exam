@@ -17,6 +17,11 @@
         background-blend-mode: multiply;
         padding-bottom: 70px;
         mask: radial-gradient(60% 150px at bottom, #0000 100%, #000);
+
+    }
+
+    .logo {
+        margin-top: 30px;
     }
 
     .nav-main {
@@ -27,11 +32,13 @@
 
     }
 
+
+
     .nav-main nav a {
         text-decoration: none;
         list-style: none;
         display: inline-block;
-        padding: 30px 20px 0 0;
+        padding: 30px 25px 0 0;
         color: white;
         font-family: Roboto;
         font-weight: bold;
@@ -46,16 +53,8 @@
         padding: 10px 15px;
         font-size: 15px;
         border-radius: 15px;
+        cursor: pointer;
     }
-
-    .nav-main button:hover {
-        border: 1px solid #fff;
-        background: none;
-        /* transform: translateY(-5px); */
-
-        transition: all 0.6s;
-    }
-
 
     /* =========banner section======== */
 
@@ -172,12 +171,8 @@
     }
 
     .about-first img {
-        /* height: 450px; */
         height: 500px;
         width: 650px;
-        /* width: 600px; */
-
-
     }
 
     .about-img {
@@ -186,8 +181,6 @@
         padding: 90px 10px 0 0;
         height: 300px;
         width: 300px;
-
-
     }
 
     .about-second p {
@@ -373,6 +366,7 @@
         border: 2px solid #fff;
         background: none;
         transition: all 0.6s;
+
     }
 
     /* ==========Map Section============ */
