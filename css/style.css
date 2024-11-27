@@ -397,7 +397,7 @@
         padding: 80px;
 
         box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.075);
-        /* position: absolute; */
+        position: absolute;
         margin: -100px 0 0 0;
     }
 
